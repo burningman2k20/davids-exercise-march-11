@@ -140,12 +140,13 @@ img {
 
 .image-class-middle {
   width:100%;
+  height: 100%
 }
 
 
 .image-class-end{
   width:70%;
-  height:1%;
+  height:100%;
 }
 
 .center-the-bottom{
