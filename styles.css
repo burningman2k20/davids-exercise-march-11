@@ -19,7 +19,7 @@ body, div, p, a, strong, span, img, li, ul {
     background-size: 100%;
     width: 60px;
     height: 60px;
-    margin: 10px;
+    margin: 5px;
 }
 
 .top-bar-logo {
@@ -28,7 +28,7 @@ body, div, p, a, strong, span, img, li, ul {
 }
 
 #first-line {
-    font-size: 18pt;
+    font-size: 13pt;
     letter-spacing: .5px;
 }
 
@@ -38,12 +38,12 @@ body, div, p, a, strong, span, img, li, ul {
 }
 
 .top-bar-menu ul {
-    margin-left: 100px;
+    margin-left: 40px;
 }
 
 .top-bar-menu li {
-    font-size: 22pt;
-    margin: 0 50px;
+    font-size: 15pt;
+    margin: 0 25px;
     display: inline-block;
 }
 
@@ -65,7 +65,7 @@ body, div, p, a, strong, span, img, li, ul {
 
 .top-main {
     background-color:#b0b0b0; /*lightgrey;*/
-    padding: 30px 10px;
+    padding: 20px 10px;
 }
 
 .top-main > div {
