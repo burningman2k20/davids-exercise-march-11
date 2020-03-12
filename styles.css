@@ -1,0 +1,168 @@
+﻿
+body, div, p, a, strong, span, img, li, ul {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.top-bar-wraper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white; /*#eee;*/
+    border-bottom: 1px solid #c8bcbc;
+}
+.top-bar-logo::before {
+    display: inline-block;
+    content: "";
+    background: url("https://www.mozilla.org/media/img/logos/firefox/logo-quantum.9c5e96634f92.png") no-repeat 0 0;
+    background-size: 100%;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+}
+
+.top-bar-logo {
+    display: flex;
+    align-items: center;
+}
+
+#first-line {
+    font-size: 18pt;
+    letter-spacing: .5px;
+}
+
+.top-bar-menu {
+    white-space: nowrap;
+
+}
+
+.top-bar-menu ul {
+    margin-left: 100px;
+}
+
+.top-bar-menu li {
+    font-size: 22pt;
+    margin: 0 50px;
+    display: inline-block;
+}
+
+.top-bar-wraper::after {
+    display: inline-block;
+    content: "";
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1200px-Hamburger_icon.svg.png") no-repeat 0 0;
+    background-size: 100%;
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+.top-main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items:center;
+}
+
+.top-main {
+    background-color:#b0b0b0; /*lightgrey;*/
+    padding: 30px 10px;
+}
+
+.top-main > div {
+    background-color: #fff;
+    padding: 10px 40px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.top-main p {
+    font-size: 16pt;
+    font-weight: bolder;
+}
+
+.divider {
+    background-color: #eee;
+    height: 1px;
+    width: 100px;
+    margin: 20px auto;
+}
+
+.bottom-main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.bottom-second {
+    grid-column: 2/3;
+
+
+}
+
+.bottom-main > div {
+    background-color: #fff;
+    padding: 10px 40px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.bottom-main p {
+    font-size: 16pt;
+    font-weight: normal;
+}
+
+img {
+    overflow: hidden;
+}
+
+
+.button-class {
+  display:inline-block;
+  border-radius: 10px;
+  width:200px;
+  height:75px;
+  font-size: 16pt;
+  font-weight: 900;
+  background-color:white;
+  padding:5px;
+}
+
+.image-class{
+  display:block;
+  border-radius: 25px;
+
+  padding: :10%;
+}
+
+.image-class-middle {
+  width:100%;
+}
+
+
+.image-class-end{
+  width:70%;
+  height:1%;
+}
+
+.center-the-bottom{
+
+}
+
+h3 {
+  font-size:22pt;
+  font-weight: bold;
+}
+
+.top-bar-select{
+  font-weight: bold;
+  color:green;
+}
+
+.top-bar-not-select{
+  font-weight: bold;
+  color:black;
+}
